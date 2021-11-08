@@ -24,11 +24,19 @@ footer {
 
 .party-image{
 	height: 200px;
-	width: auto;
+	width: 200px;
 	float: left;
 	padding-right: 2em;
 }
 
 .partyGuest__card {
 	margin: 5em;
+}
+
+#partyGuest__image{
+	width: 500px;
+}
+
+.sideDish-select{
+	margin-top: 2rem;
 }
