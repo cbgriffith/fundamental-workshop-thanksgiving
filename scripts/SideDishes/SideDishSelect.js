@@ -1,12 +1,12 @@
-import { getSideDishes, useSideDishes } from "./SideDishDataProvider.js"
+import { getPartyGuest, usePartyGuest } from "../PartyGuests/PartyGuestDataProvider.js"
 import { PartyGuestList } from "../PartyGuests/PartyGuestList.js"
 
 const contentTarget = document.querySelector(".sideDish-select")
 
 export const SideDishSelect = () => {
-    getSideDishes()
+    getPartyGuest()
         .then(() => {
-    const sideDishes = useSideDishes()
+    const sideDishes = usePartyGuest()
     render(sideDishes)
         })
 }
