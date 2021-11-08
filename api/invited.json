@@ -1,0 +1,36 @@
+{
+  "invited": [
+    {
+      "name": "Adele",
+      "age": "33",
+      "favoriteDish": "Sweet Potatoes",
+      "rightHanded": "false",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhGQRcW2nVnJNW7rQOayUs5zvVYlqLkZMJIg&usqp=CAU",
+      "id": 1
+    },
+    {
+      "name": "Bob Barker",
+      "age": "97",
+      "favoriteDish": "Green Bean Casserole",
+      "rightHanded": "true",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Bob_Barker_at_WWE_crop.jpg",
+      "id": 2
+    },
+    {
+      "name": "David Lynch",
+      "age": "75",
+      "favoriteDish": "Mashed Potatoes",
+      "rightHanded": "true",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/David_Lynch_Cannes_2017.jpg",
+      "id": 3
+    },
+    {
+      "name": "Burt",
+      "age": "63",
+      "favoriteDish": "Human Flesh",
+      "rightHanded": "false",
+      "image": "https://cdn.vox-cdn.com/thumbor/WTlFjRp0WnA6YzKYTYHFdu5ISn4=/0x0:3840x2400/920x613/filters:focal(1613x893:2227x1507):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/62630829/The_Walking_Dead_TV_502082_3840x2400.0.jpg",
+      "id": 4
+    }
+  ]
+}
