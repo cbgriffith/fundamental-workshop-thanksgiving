@@ -56,8 +56,8 @@ export const PartyGuestForm = () => {
     </div>
       <select id="partyGuest__rightHanded">
         <option selected>Choose one...</option>
-        <option value=true>Right</option>
-        <option value=false>Left</option>
+        <option value="true">Right</option>
+        <option value="false">Left</option>
       </select>
     <div>
       <label>Image Link:</label>
