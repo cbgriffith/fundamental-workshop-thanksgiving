@@ -17,6 +17,11 @@ export const PartyGuestList = (selectListName, selectedChoice) => {
                     return selectedChoice === singlePartyGuestInLoop.favoriteDish
                 })
             }
+            if(selectListName === "guest-name"){
+                partyGuestArray = partyGuestArray.filter(singlePartyGuestInLoop => {
+                    return selectedChoice === singlePartyGuestInLoop.name
+                })
+            }
             partyGuestArray.forEach((singlePartyGuestObj) => {
                 partyGuestListContainer.innerHTML += PartyGuest(singlePartyGuestObj)
             })
