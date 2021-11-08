@@ -1,8 +1,5 @@
 import { PartyGuest } from "./PartyGuest.js"
 import { getPartyGuest, usePartyGuest } from "./PartyGuestDataProvider.js";
-import { SideDishSelect } from "../SideDishes/SideDishSelect.js";
-
-const contentTarget = document.querySelector(".guest-list")
 
 export const PartyGuestList = (selectListName, selectedChoice) => {
     let partyGuestListContainer = document.querySelector(".guest-list");

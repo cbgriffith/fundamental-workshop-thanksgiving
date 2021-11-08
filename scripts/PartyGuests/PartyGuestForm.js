@@ -56,7 +56,7 @@ export const PartyGuestForm = () => {
     </div>
       <select id="partyGuest__rightHanded">
         <option selected>Choose one...</option>
-        <option value=toBool(true)>Right</option>
+        <option value=true>Right</option>
         <option value=false>Left</option>
       </select>
     <div>
