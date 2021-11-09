@@ -4,6 +4,6 @@ import { SideDishSelect } from "./SideDishes/SideDishSelect.js"
 import { guestNameSelect } from "./Names/NameSelect.js"
 
 PartyGuestForm();
-// PartyGuestList();
-SideDishSelect()
-guestNameSelect()
+PartyGuestList();
+SideDishSelect();
+guestNameSelect();

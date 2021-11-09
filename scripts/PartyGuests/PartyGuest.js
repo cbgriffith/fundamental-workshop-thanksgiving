@@ -8,7 +8,7 @@ export const PartyGuest = (partyGuest) => {
     
     return `
         <div class="partyGuest__card">
-            <div class="partyGuest__image"><img class="party-image" src=${partyGuest.image}></div>
+            <div class="partyGuest__image"><img class="party-image" src="${partyGuest.image}"></div>
             <ul class="guestCard-list">
                 <div class="partyGuest__name"><li><h2>${partyGuest.name}</h2></li></div>
                 <div class="partyGuest__age"><li><h4>Age: ${partyGuest.age}</h4></li></div>
