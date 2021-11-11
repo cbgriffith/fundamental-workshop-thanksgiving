@@ -25,6 +25,7 @@ const render = sideDishCollection => {
         </select>
     `
 }
+
 const eventHub = document.querySelector("body")
 
 eventHub.addEventListener("change", (eventObject) => {

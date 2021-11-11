@@ -24,6 +24,7 @@ const render = guestNameCollection => {
             }
         </select>
     `
+    
 }
 const eventHub = document.querySelector("body")
 
