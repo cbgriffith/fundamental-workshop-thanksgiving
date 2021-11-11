@@ -22,3 +22,20 @@ export const savePartyGuest = guest => {
     })
     .then(getPartyGuest)
 }
+
+export const deletePartyGuest = partyGuestId => {
+    return fetch(`http://localhost:8088/invited/${partyGuestId}`, {
+        method: "DELETE"
+    })
+}
+
+export const updatePartyGuest = guest => {
+
+    return fetch(`http://localhost:8088/invited/${guest.id}`, {
+        method: "PUT",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(guest)
+    })
+}

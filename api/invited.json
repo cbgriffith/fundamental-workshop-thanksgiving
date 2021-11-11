@@ -2,7 +2,7 @@
   "invited": [
     {
       "name": "Adele",
-      "age": 33,
+      "age": "33",
       "favoriteDish": "Sweet Potatoes",
       "rightHanded": "false",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhGQRcW2nVnJNW7rQOayUs5zvVYlqLkZMJIg&usqp=CAU",
