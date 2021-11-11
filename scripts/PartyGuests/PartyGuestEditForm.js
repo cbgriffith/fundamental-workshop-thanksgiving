@@ -9,6 +9,12 @@ export const PartyGuestEditForm = (partyGuestId) => {
 
     // Find the note that we clicked on by its unique id
     const guestWeWantToEdit = allGuests.find(singleGuest=> singleGuest.id === partyGuestId)
+    let handedness = "";
+    if (guestWeWantToEdit.rightHanded === "true"){
+        handedness = "Right"
+    } else {
+        handedness = "Left"
+    }
 
     // Print the form
     // We'll use the HTML value attribute to pre-populate our form fields with the note's info
@@ -17,7 +23,7 @@ export const PartyGuestEditForm = (partyGuestId) => {
         <input type="text" id="partyGuest-name" value="${guestWeWantToEdit.name}" />
         <input type="number" id="partyGuest-age" value="${guestWeWantToEdit.age}" />
         <select id="partyGuest-favoriteDish">
-            <option selected>Choose one</option>
+            <option selected>${guestWeWantToEdit.favoriteDish}</option>
             <option value="Sweet Potatoes">Sweet Potatoes</option>
             <option value="Mashed Potatoes">Mashed Potatoes</option>
             <option value="Stuffing">Stuffing</option>
@@ -31,7 +37,7 @@ export const PartyGuestEditForm = (partyGuestId) => {
             <option value="Human Flesh">Human Flesh</option>
         </select>
         <select id="partyGuest-rightHanded">
-            <option selected>Choose one</option>
+            <option selected>${handedness}</option>
             <option value="true">Right</option>
             <option value="false">Left</option>
         </select>
