@@ -6,5 +6,5 @@ import { PartyGuestEditForm } from "./PartyGuests/PartyGuestEditForm.js"
 
 PartyGuestForm();
 PartyGuestList();
-// SideDishSelect();
-// guestNameSelect();
+SideDishSelect();
+guestNameSelect();
