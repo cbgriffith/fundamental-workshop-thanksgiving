@@ -37,7 +37,7 @@ export const PartyGuestEditForm = (partyGuestId) => {
             <option value="Human Flesh">Human Flesh</option>
         </select>
         <select id="partyGuest-rightHanded">
-            <option selected>${guestWeWantToEdit.rightHanded}</option>
+            <option selected>${handedness}</option>
             <option value="true">Right</option>
             <option value="false">Left</option>
         </select>
